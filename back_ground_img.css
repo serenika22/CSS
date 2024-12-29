@@ -1,0 +1,11 @@
+div{
+    height: 350px;
+    width: 500px;
+    background-color: aquamarine;
+    color: black;
+    background-image:url("bg.jpg");
+    margin:0 auto;
+    background-image: auto;
+    
+   
+}

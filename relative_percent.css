@@ -1,0 +1,49 @@
+/*h1{
+    border:2px solid black;
+    width: 50%;
+}
+#outer{
+    width:100px;
+    height:100px;
+    background-color:darkcyan;
+    margin:50px;
+}
+#inner{
+    width: 50%;
+    height: 75%;
+    background-color:crimson;
+    margin: 25%;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    font-size: 30px;
+}
+#inner{
+    height:100px;
+    width: 100px;
+    background-color: forestgreen;
+    margin-left: 20px;
+    font-size: 0.5em;
+    padding-left: 1.5em;
+}
+button{
+    font-size: 50px;
+    border: 3px solid green;
+    margin: 10px;
+    border-radius:25px;
+    background-color: bisque;
+    padding-left: 2em; relative to font size
+*/
+section{
+    font-size: 15px;
+}
+div{
+    font-size: 2em;   /*snow fall drawback in em*/
+}
+
+div{
+    font-size: 3rem;
+}

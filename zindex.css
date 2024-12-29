@@ -1,0 +1,17 @@
+.box{
+    height: 160px;
+    width: 160px;
+    border: 2px solid black;
+    background-color: pink;
+}
+.one{
+    background-color: burlywood;
+    position: relative;
+    z-index: -1px;
+}
+.two{
+    background-color: cadetblue;
+    position: relative;
+    bottom: -10px;
+    z-index: 3px;
+}

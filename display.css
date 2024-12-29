@@ -1,0 +1,25 @@
+/*h1{
+    display:inline;
+    background-color: yellowgreen;
+}
+p{
+    display: block;
+}
+span{
+    display: block;
+    background-color: aquamarine;
+}
+    */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 8px;
+    display: inline-block;
+}
+/*
+#third{
+    display: none;
+}
+    */

@@ -1,0 +1,97 @@
+/*UNIVERSAL SELECTOR*/
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+/*ELEMENTS SELCTOR*/
+h1,h3{
+    color: #b92b27;
+}
+/*ID SELECTOR*/
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white; 
+}
+/*MYCLASS SELECTOR*/
+.upvote{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+/*Descendant selector that is levels by level*/
+nav ul li{
+    color: pink;
+}
+
+.post a{
+    color: black;
+    background-color: yellow;
+}
+
+p a{
+    text-decoration: none;
+}
+
+/*ADJACENT SIBLING COMBINATOR*/
+p+h3{
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color:coral;
+    color: white;
+}
+/*CHILD COMBINATOR*/
+div > input{
+    background-color:beige;
+}
+ 
+/*ATTRIBUTE SELECTOR*/
+input[type="text"]{
+    color:black;
+}
+input[type="password"]{
+    color: crimson;
+}
+input[type]{
+    background-color:linen;
+}
+/*PSEUDO CLASSS HOVER*/
+button:hover{
+    color:blueviolet;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: none;
+}
+/*ACTIVE PSEUDO CLASS*/
+button:active{
+   background-color: hotpink;
+}
+p:active{
+    color: black;
+    font-weight: bold;
+}
+
+/*CHECKED PSEUDO CLASS*/
+input[type="radio"]:checked+label{
+    color: blue;
+    font-weight: bold;
+}
+/*NTH OF TYPE*/
+.post:nth-of-type(1n){
+    background-color: aquamarine;
+}
+
+/*pesudo elements*/
+h1::first-letter{
+    color: cadetblue;
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: cornflowerblue;
+}
